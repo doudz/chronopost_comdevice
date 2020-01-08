@@ -1,1 +1,2 @@
-/opt/chronopostcomdevice/Linux/launcher.sh
+#!/bin/bash
+bash /opt/chronopostcomdevice/Linux/launcher.sh
