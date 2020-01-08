@@ -1,4 +1,4 @@
-# chronopost_comdevice
+# Chronopost ComDevice
 Linux port of Chronopost ComDevice
 <https://www.chronopost.fr/fr/telechargement-de-chronopost-comdevice>
 
