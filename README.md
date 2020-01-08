@@ -14,7 +14,7 @@ To start the application, launch `bash launcher.sh`
 
 Au 01/01/2020 Chronopost ComDevice est uniquement disponible pour Windows et MacOS mais comme il est écrit en java il est possible de le faire fonctionner sur Linux.
 
-Ce dépot propose la version 9.1, issu de la version pour MacOS, testé sur Ubuntu 18.04/19.04/19.10 et nécessite openjdk 8.
+Ce dépôt propose la version 9.1, issu de la version pour MacOS, testé sur Ubuntu 18.04/19.04/19.10 et nécessite openjdk 8.
 
 `sudo apt install openjdk-8-jre`
 
