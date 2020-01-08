@@ -1,0 +1,10 @@
+  GNU nano 4.3                                  chronopost-comdevice.desktop                                   Modifié  
+[Desktop Entry]
+Name=Chronopost ComDevice
+Comment=Chronopost ComDevice
+Exec=bash /opt/chronopostcomdevice/Linux/launcher.sh
+Terminal=false
+Type=Application
+Icon=comdevice.png
+Categories=Network;
+
