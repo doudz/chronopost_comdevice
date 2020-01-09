@@ -24,7 +24,8 @@ echo "vmargs= $VM_ARGS"
 launcher_start()  {
 	echo "start application..."
 	$_java $VM_ARGS -jar "$APPLICATION_DIR/$APPLICATION_JAR"
-	chmod -R 777 "$WORK_DIR/logs"
+	chmod -R 0777 "$WORK_DIR/logs"
+	chmod -R 0777 "$APPLICATION_DIR/logs/"*
 }
 
 launcher_install() {
