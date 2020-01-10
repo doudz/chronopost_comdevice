@@ -13,8 +13,12 @@ VM_ARGS="-Dfile.encoding=UTF-8"
 # Error message for NO JAVA dialog
 ERROR_TITLE="Impossible de lancer $APPLICATION_NAME"
 
-#JAVA_HOME=../jre
-JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+if [ $(uname -m) == 'x86_64' ]; then
+  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+else
+  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-i386
+fi
+
 _java="$JAVA_HOME/bin/java"
 cd "$APPLICATION_DIR"
 
