@@ -1,9 +1,8 @@
 [Desktop Entry]
 Name=Chronopost ComDevice
 Comment=Chronopost ComDevice
-Exec=bash /opt/chronopostcomdevice/Linux/launcher.sh
+Exec=/usr/bin/chronopost-comdevice
 Terminal=false
 Type=Application
-Icon=comdevice.png
+Icon=comdevice
 Categories=Network;
-

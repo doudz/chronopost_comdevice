@@ -1,7 +1,7 @@
 
 Package: chronopost-comdevice
-Version: 9.1.0
-Architecture: all
+Version: 9.1.0-1
+Architecture: amd64
 Maintainer: sebastien.ramage@gmail.com
 Installed-Size: 34
 Depends: openjdk-8-jre
