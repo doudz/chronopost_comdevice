@@ -4,7 +4,7 @@ Linux port of Chronopost ComDevice
 
 As 2020-01-01 Chronopost ComDevice is only available on Windows and MacOS but since it's written in java we can easily make it works on Linux
 
-This repository contains version 9.1 from MacOS version, tested on Ubuntu 18.04/19.04/19.10 et requiert openjdk 8.
+This repository contains version 9.1 from MacOS version, tested on Ubuntu/xubuntu 16.04/18.04/19.04/19.10 et requiert openjdk 8.
 
 `sudo apt install openjdk-8-jre`
 
